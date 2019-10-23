@@ -10,7 +10,9 @@ namespace SeleniumEnhanced
 {
     class SeleniumEnhanced
     {
-
+        /// <summary>
+        /// TESTTTTTTTTTTTTTTTTT
+        /// </summary>
         private static string userHMF = Environment.UserName;
         private static string download_dir = "C:/Users/" + userHMF + "/Downloads";
         private static string chromedriver_dir = "C:/Users/" + userHMF + "/ImportFiles/";
