@@ -61,23 +61,7 @@ namespace SeleniumEnhanced
             }
         }
 
-        public string GetText(string xpath)
-        {
-            string text = driver.FindElementByXPath(xpath).Text;
-            return text;
-        }
-
-        public void Click(string xpath)
-        {
-            driver.FindElementByXPath(xpath).Click();
-        }
-
-        public void SendKeys(string xpath, string keys_to_send)
-        {
-            driver.FindElementByXPath(xpath).SendKeys(keys_to_send);
-        }
-
-
+        
         public string GetFunction(
             string function, 
             string xpath, 
